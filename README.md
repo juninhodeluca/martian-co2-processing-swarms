@@ -1,5 +1,7 @@
 # Distributed Martian Atmospheric CO₂ Processing Swarms
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22241919.svg)](https://doi.org/10.5281/zenodo.22241919)
+
 **A Conceptual Architecture for Plasma-Vortex ISRU and Autonomous Microreactors**
 
 **Author:** J.P. De Luca  
@@ -23,6 +25,8 @@ A second, deliberately more speculative branch considers **contained biological 
 ## Paper
 
 📄 **[Read the full concept paper](paper.md)**
+
+📦 **[Archived v0.2 release on Zenodo](https://doi.org/10.5281/zenodo.22241919)**
 
 The manuscript includes:
 
@@ -71,6 +75,7 @@ The project deliberately treats this as a **falsifiable engineering question**, 
 ├── paper.md
 ├── references.bib
 ├── CITATION.cff
+├── .zenodo.json
 └── figures/
     ├── fig01_stage1_system_plan.webp
     ├── fig02_plasma_vortex_flow.webp
@@ -82,7 +87,13 @@ The project deliberately treats this as a **falsifiable engineering question**, 
 
 ## Citation and archival
 
-This repository is intended to be archived through **Zenodo** using the GitHub–Zenodo integration. A `CITATION.cff` file is included for machine-readable citation metadata. A DOI can be added after the first archived release.
+Version **v0.2** is permanently archived on Zenodo:
+
+**De Luca, J.P. (2026). _Distributed Martian Atmospheric CO₂ Processing Swarms: A Conceptual Architecture for Plasma-Vortex ISRU and Autonomous Microreactors_ (v0.2). Zenodo. https://doi.org/10.5281/zenodo.22241919**
+
+DOI: **[10.5281/zenodo.22241919](https://doi.org/10.5281/zenodo.22241919)**
+
+Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff).
 
 ## AI-assisted development disclosure
 
