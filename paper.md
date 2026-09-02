@@ -4,7 +4,7 @@
 
 **J.P. De Luca**
 
-**Version:** 0.2.3 — Concept Paper
+**Version:** 0.2.4 — Concept Paper
 **Date:** September 2026
 
 > **Status of this work.** This manuscript is a **mental, experimental, and speculative concept study**. It is not a validated mission architecture, demonstrated plasma reactor, terraforming protocol, or engineering specification. The paper deliberately distinguishes (i) experimentally demonstrated facts, (ii) literature-supported physical mechanisms, (iii) engineering extrapolations proposed here, and (iv) long-horizon speculative extensions.
