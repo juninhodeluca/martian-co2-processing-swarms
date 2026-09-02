@@ -2,7 +2,12 @@
   "title": "Distributed Martian Atmospheric CO₂ Processing Swarms: A Conceptual Architecture for Plasma-Vortex ISRU and Autonomous Microreactors",
   "upload_type": "publication",
   "publication_type": "report",
-  "description": "A speculative concept study exploring distributed swarms of autonomous ultralight atmospheric microdevices for Martian CO₂ processing using compact plasma-vortex reactors. The manuscript distinguishes demonstrated evidence, literature-supported mechanisms, engineering extrapolation, and long-horizon speculation.",
+  "publication_date": "2026-09-02",
+  "version": "0.2.3",
+  "language": "eng",
+  "description": "A speculative concept study exploring distributed swarms of autonomous ultralight atmospheric microdevices for Martian CO₂ processing using compact plasma-vortex reactors. The manuscript distinguishes demonstrated evidence, literature-supported mechanisms, engineering extrapolation, and long-horizon speculation, and frames the architecture as a falsifiable research hypothesis rather than a validated mission design.",
+  "notes": "Concept paper. Stage 1 examines distributed physicochemical CO₂ processing using compact plasma-flow reactors. Stage 2 is a substantially more speculative protected biological micro-habitat extension and is not proposed as an open biological release under current planetary-protection constraints.",
+  "method": "Concept generation and systems-engineering analysis combining literature-supported mechanisms, first-order thermodynamic and mass-flow calculations, architecture comparison, evidence-tier classification, and a staged experimental validation roadmap.",
   "creators": [
     {
       "name": "De Luca, J.P."
@@ -10,14 +15,48 @@
   ],
   "keywords": [
     "Mars",
-    "ISRU",
+    "Mars ISRU",
+    "in-situ resource utilization",
+    "carbon dioxide",
     "CO2 conversion",
     "oxygen production",
     "non-thermal plasma",
+    "non-equilibrium plasma",
     "plasma vortex",
+    "gliding arc",
     "swarm robotics",
     "atmospheric vehicles",
-    "distributed systems"
+    "distributed systems",
+    "planetary engineering"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/juninhodeluca/martian-co2-processing-swarms",
+      "relation": "isSupplementTo"
+    },
+    {
+      "identifier": "https://github.com/juninhodeluca/martian-co2-processing-swarms/releases/tag/v0.2.3",
+      "relation": "isSupplementTo"
+    }
+  ],
+  "references": [
+    "NIST Chemistry WebBook, SRD 69. Carbon dioxide, CAS 124-38-9. National Institute of Standards and Technology.",
+    "NIST Chemistry WebBook, SRD 69. Carbon monoxide, CAS 630-08-0. National Institute of Standards and Technology.",
+    "Hoffman, J. A.; Hecht, M. H.; Rapp, D.; et al. (2022). Mars Oxygen ISRU Experiment (MOXIE)—Preparing for human Mars exploration. Science Advances, 8(35), eabp8636. DOI: 10.1126/sciadv.abp8636.",
+    "NASA (2023). NASA’s Oxygen-Generating Experiment MOXIE Completes Mars Mission.",
+    "Yang, Y.; Murphy, A. B. (2025). CO₂ conversion using non-thermal plasmas: The path towards industrialisation. Current Opinion in Green and Sustainable Chemistry, 51, 100994. DOI: 10.1016/j.cogsc.2024.100994.",
+    "Wanten, B.; Vertongen, R.; De Meyer, R.; Bogaerts, A. (2023). Plasma-based CO₂ conversion: How to correctly analyze the performance? Journal of Energy Chemistry, 86, 180–196. DOI: 10.1016/j.jechem.2023.07.005.",
+    "Ashford, B.; Tu, X. (2017). Non-thermal plasma technology for the conversion of CO₂. Current Opinion in Green and Sustainable Chemistry, 3, 45–49. DOI: 10.1016/j.cogsc.2016.12.001.",
+    "Shah, Y. T.; Verma, J.; Katti, S. S. (2021). Plasma activated catalysis for carbon dioxide dissociation: A review. Journal of the Indian Chemical Society, 98(10), 100152. DOI: 10.1016/j.jics.2021.100152.",
+    "Nagassou, D.; Mohsenian, S.; Bhatta, S.; Elahi, R.; Trelles, J. P. (2019). Solar–gliding arc plasma reactor for carbon dioxide decomposition: Design and characterization. Solar Energy, 180, 678–689. DOI: 10.1016/j.solener.2019.01.070.",
+    "NASA. NASA/TM—2018-219945. Mars engineering environment reference.",
+    "NASA. Analysis of Wind Power on Mars.",
+    "Hall, J. L.; Pauken, M. T.; Kerzhanovich, V. V.; et al. (2009). Mars Balloon Flight Test Results. AIAA Balloon Systems Conference. NTRS 20150011965.",
+    "Committee on Space Research (COSPAR) (2026). COSPAR Policy on Planetary Protection.",
+    "Verseux, C.; et al. (2021). A Low-Pressure, N₂/CO₂ Atmosphere Is Suitable for Cyanobacterium-Based Life-Support Systems on Mars. Frontiers in Microbiology, 12, 611798. DOI: 10.3389/fmicb.2021.611798.",
+    "Macário, I. P. E.; et al. (2022). Cyanobacteria as Candidates to Support Mars Colonization: Growth and Biofertilization Potential Using Mars Regolith as a Resource. Frontiers in Microbiology, 13, 840098. DOI: 10.3389/fmicb.2022.840098.",
+    "Fahrion, J.; Mastroleo, F.; Dussap, C.-G.; Leys, N. (2021). Use of Photobioreactors in Regenerative Life Support Systems for Human Space Exploration. Frontiers in Microbiology, 12, 699525. DOI: 10.3389/fmicb.2021.699525.",
+    "Rodrigues, D.; McCormick, A. J. (2026). Exploring the biology of cyanobacteria in life support systems on Mars. Frontiers in Astronomy and Space Sciences, 13, 1853934. DOI: 10.3389/fspas.2026.1853934."
   ],
   "access_right": "open"
 }
