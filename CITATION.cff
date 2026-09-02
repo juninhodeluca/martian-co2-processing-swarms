@@ -1,11 +1,9 @@
 cff-version: 1.2.0
-message: "If you use or discuss this concept, please cite the archived v0.2.3 release using the DOI below."
+message: "If you use or discuss this concept, please cite the version-specific Zenodo record for v0.2.4 once its DOI is assigned."
 title: "Distributed Martian Atmospheric CO₂ Processing Swarms: A Conceptual Architecture for Plasma-Vortex ISRU and Autonomous Microreactors"
 type: report
-version: "0.2.3"
+version: "0.2.4"
 date-released: 2026-09-02
-doi: "10.5281/zenodo.22244600"
-url: "https://doi.org/10.5281/zenodo.22244600"
 license: CC-BY-4.0
 authors:
   - family-names: "De Luca"
