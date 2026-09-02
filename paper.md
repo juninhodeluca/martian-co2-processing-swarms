@@ -23,7 +23,7 @@ Mars provides an unusually abundant local carbon dioxide resource but imposes se
 
 ## 1. Introduction
 
-Long-duration operations on Mars benefit strongly from **in-situ resource utilization (ISRU)** because every kilogram of oxygen, propellant, water, structure, and consumable produced locally reduces dependence on terrestrial launch mass. Oxygen is especially important because it serves both life-support and propulsion roles. The Mars Oxygen ISRU Experiment (MOXIE) demonstrated on Mars that atmospheric CO₂ can be electrochemically converted into molecular oxygen and carbon monoxide using solid-oxide electrolysis [3,4]. MOXIE therefore establishes the central premise that the Martian atmosphere can be treated as an industrial feedstock, while leaving open the question of what other architectures might complement or eventually compete with centralized solid-oxide systems.
+Long-duration operations on Mars benefit strongly from **in-situ resource utilization (ISRU)** because every kilogram of oxygen, propellant, water, structure, and consumable produced locally reduces dependence on terrestrial launch mass. Oxygen is especially important because it serves both life-support and propulsion roles. The Mars Oxygen ISRU Experiment (MOXIE) demonstrated on Mars that atmospheric CO₂ can be electrochemically converted into molecular oxygen and carbon monoxide using solid-oxide electrolysis [[3](#ref-3), [4](#ref-4)]. MOXIE therefore establishes the central premise that the Martian atmosphere can be treated as an industrial feedstock, while leaving open the question of what other architectures might complement or eventually compete with centralized solid-oxide systems.
 
 This study began from the idealized decomposition
 
@@ -47,7 +47,7 @@ $$\boxed{\text{Stage 1: Distributed physicochemical CO₂ processing}}$$
 
 $$\boxed{\text{Stage 2: Speculative protected biological micro-habitats}}$$
 
-Stage 1 is an engineering research hypothesis. Stage 2 is a far-future astrobiological thought experiment and, under current planetary-protection principles, must remain a contained experimental concept rather than an open-release proposal [13].
+Stage 1 is an engineering research hypothesis. Stage 2 is a far-future astrobiological thought experiment and, under current planetary-protection principles, must remain a contained experimental concept rather than an open-release proposal [[13](#ref-13)].
 
 ---
 
@@ -63,7 +63,7 @@ A local oxygen-production system can support:
 - chemical synthesis;
 - redundancy for future human infrastructure.
 
-MOXIE produced oxygen directly from the Martian atmosphere and ultimately demonstrated production rates up to approximately 12 g h⁻¹ with purity of at least 98% during its mission [4](#4-thermodynamic-and-chemical-baseline). The experiment is a crucial benchmark because it establishes that atmospheric ISRU is not merely theoretical.
+MOXIE produced oxygen directly from the Martian atmosphere and ultimately demonstrated production rates up to approximately 12 g h⁻¹ with purity of at least 98% during its mission [[4](#ref-4)]. The experiment is a crucial benchmark because it establishes that atmospheric ISRU is not merely theoretical.
 
 The swarm concept does **not** assume that plasma must outperform solid-oxide electrolysis. Rather, it asks a different architectural question:
 
@@ -106,7 +106,7 @@ $$\boxed{ \text{For early Mars development, survivable low-throughput units may 
 
 ### 2.3 Why investigate plasma?
 
-CO₂ is chemically stable and its dissociation requires substantial energy. Non-equilibrium plasmas are attractive because electron energies can greatly exceed the bulk-gas thermal energy, enabling excitation, ionization, and dissociation without requiring the entire gas volume to reach the same temperature [5–8].
+CO₂ is chemically stable and its dissociation requires substantial energy. Non-equilibrium plasmas are attractive because electron energies can greatly exceed the bulk-gas thermal energy, enabling excitation, ionization, and dissociation without requiring the entire gas volume to reach the same temperature [[5](#ref-5), [6](#ref-6), [7](#ref-7), [8](#ref-8)].
 
 The literature identifies several relevant plasma families, including:
 
@@ -115,9 +115,9 @@ The literature identifies several relevant plasma families, including:
 - gliding arc;
 - rotating or vortex-assisted gliding arc;
 - radio-frequency discharges;
-- plasma–catalyst hybrid systems [5–9].
+- plasma–catalyst hybrid systems [[5](#ref-5), [6](#ref-6), [7](#ref-7), [8](#ref-8), [9](#ref-9)].
 
-Plasma conversion remains at low technology readiness relative to mature industrial chemistry, and recent reviews emphasize the gap between laboratory performance and industrialization [5]. The present paper treats that limitation as central rather than incidental.
+Plasma conversion remains at low technology readiness relative to mature industrial chemistry, and recent reviews emphasize the gap between laboratory performance and industrialization [[5](#ref-5)]. The present paper treats that limitation as central rather than incidental.
 
 ---
 
@@ -133,7 +133,7 @@ and an average solar irradiance above the atmosphere of approximately
 
 $$I_{\mathrm{Mars}} \approx 590\ \mathrm{W\,m^{-2}}$$
 
-[10].
+[[10](#ref-10)].
 
 These two numbers strongly shape the architecture.
 
@@ -147,7 +147,7 @@ The ideal kinetic power available in a flow is
 
 $$P_{\mathrm{wind}}=\frac{1}{2}\rho A v^3 .$$
 
-Because $P_{\mathrm{wind}}$ scales linearly with density, Mars' low atmospheric density strongly penalizes small wind-energy harvesters. Historical NASA analyses found conventional Martian wind power unattractive for near-term surface power under representative atmospheric conditions [11].
+Because $P_{\mathrm{wind}}$ scales linearly with density, Mars' low atmospheric density strongly penalizes small wind-energy harvesters. Historical NASA analyses found conventional Martian wind power unattractive for near-term surface power under representative atmospheric conditions [[11](#ref-11)].
 
 An additional problem appears for **free-drifting** devices. A balloon or passive vehicle that accelerates until its velocity approaches the local air velocity experiences decreasing relative wind:
 
@@ -176,7 +176,7 @@ rather than wind-only microturbines.
 
 ### 3.3 Aerostatic and aerodynamic flight constraints
 
-Mars balloon concepts have been studied experimentally, including superpressure-balloon deployment tests in Earth's stratosphere as a Martian analog [12]. JPL work on Martian superpressure balloons illustrates an important scaling constraint: very low ambient density leads to large envelope volumes relative to payload mass.
+Mars balloon concepts have been studied experimentally, including superpressure-balloon deployment tests in Earth's stratosphere as a Martian analog [[12](#ref-12)]. JPL work on Martian superpressure balloons illustrates an important scaling constraint: very low ambient density leads to large envelope volumes relative to payload mass.
 
 A useful first-order buoyancy estimate is
 
@@ -226,7 +226,7 @@ Using standard thermochemical data for CO₂, the reverse of carbon combustion h
 
 $$\Delta H^\circ \approx +393.5\ \mathrm{kJ\,mol^{-1}}$$
 
-[1].
+[[1](#ref-1)].
 
 With a molar mass of approximately
 
@@ -254,7 +254,7 @@ The more established target reaction is
 
 $$\mathrm{CO_2\rightarrow CO+\frac{1}{2}O_2}.$$
 
-Using NIST standard formation enthalpies for CO₂ and CO [1,2],
+Using NIST standard formation enthalpies for CO₂ and CO [[1](#ref-1), [2](#ref-2)],
 
 $$\Delta H^\circ \approx (-110.53)-(-393.51) = +282.98\ \mathrm{kJ\,mol^{-1}}.$$
 
@@ -360,7 +360,7 @@ $E/N$ influences the electron-energy distribution and therefore the fraction of 
 - ionization;
 - dissociation.
 
-The plasma literature emphasizes that vibrational activation can be particularly relevant for CO₂ conversion [5–8].
+The plasma literature emphasizes that vibrational activation can be particularly relevant for CO₂ conversion [[5](#ref-5), [6](#ref-6), [7](#ref-7), [8](#ref-8)].
 
 ---
 
@@ -492,7 +492,7 @@ $$2CO_2\rightarrow 2CO+O_2.$$
 
 **Figure 6.** Speculative second-stage architecture in which selected devices land and create protected micro-habitats carrying water and pioneer biological systems.
 
-**Interpretation.** This replaces the rejected idea of directly broadcasting seeds and liquid water. Candidate phototrophs such as cyanobacteria are relevant to closed or protected Martian life-support research because they can convert CO₂ and water into biomass and O₂ under engineered conditions [14–17]. This figure must not be read as an endorsement of open biological release on Mars.
+**Interpretation.** This replaces the rejected idea of directly broadcasting seeds and liquid water. Candidate phototrophs such as cyanobacteria are relevant to closed or protected Martian life-support research because they can convert CO₂ and water into biomass and O₂ under engineered conditions [[14](#ref-14), [15](#ref-15), [16](#ref-16), [17](#ref-17)]. This figure must not be read as an endorsement of open biological release on Mars.
 
 ---
 
@@ -602,15 +602,15 @@ To avoid conflating established science with the proposed architecture, the conc
 
 #### Tier A — Demonstrated
 
-- Martian atmospheric CO₂ can be processed into O₂ using solid-oxide electrolysis [3,4].
-- Non-equilibrium plasma can dissociate CO₂ in terrestrial laboratory reactors [5–9].
-- Balloon technologies have been developed and tested in low-density terrestrial analog environments relevant to Mars [12].
-- Cyanobacteria can be investigated under Mars-relevant low-pressure atmospheres and regolith-simulant conditions inside engineered systems [14–17].
+- Martian atmospheric CO₂ can be processed into O₂ using solid-oxide electrolysis [[3](#ref-3), [4](#ref-4)].
+- Non-equilibrium plasma can dissociate CO₂ in terrestrial laboratory reactors [[5](#ref-5), [6](#ref-6), [7](#ref-7), [8](#ref-8), [9](#ref-9)].
+- Balloon technologies have been developed and tested in low-density terrestrial analog environments relevant to Mars [[12](#ref-12)].
+- Cyanobacteria can be investigated under Mars-relevant low-pressure atmospheres and regolith-simulant conditions inside engineered systems [[14](#ref-14), [15](#ref-15), [16](#ref-16), [17](#ref-17)].
 
 #### Tier B — Literature-supported but not demonstrated as proposed
 
-- Vortex/gliding-arc flow can improve interaction between plasma and CO₂ in specific reactor configurations [8,9].
-- Plasma conversion can potentially be modular and coupled to renewable electricity [5–7].
+- Vortex/gliding-arc flow can improve interaction between plasma and CO₂ in specific reactor configurations [[8](#ref-8), [9](#ref-9)].
+- Plasma conversion can potentially be modular and coupled to renewable electricity [[5](#ref-5), [6](#ref-6), [7](#ref-7)].
 
 #### Tier C — Engineering extrapolation introduced here
 
@@ -636,7 +636,7 @@ A useful experimental figure of merit is
 
 $$\eta_E= \frac{\text{chemical energy stored in products}} {\text{electrical energy supplied to the complete reactor system}}.$$
 
-The literature cautions that reported plasma efficiencies can be difficult to compare because authors may use different definitions and system boundaries [6]. Any serious follow-up must therefore report at least:
+The literature cautions that reported plasma efficiencies can be difficult to compare because authors may use different definitions and system boundaries [[6](#ref-6)]. Any serious follow-up must therefore report at least:
 
 - CO₂ conversion $X_{CO_2}$;
 - energy efficiency $\eta_E$;
@@ -710,7 +710,7 @@ $$6CO_2+6H_2O+h\nu \rightarrow C_6H_{12}O_6+6O_2,$$
 
 but the liberated $O_2$ originates from water oxidation rather than direct extraction of both oxygen atoms from CO₂.
 
-Cyanobacteria are relevant because selected strains have been investigated for Martian bioregenerative life-support concepts, including low-pressure gas mixtures and regolith-derived nutrients [14–17]. However, exposed Martian surface conditions are not equivalent to those engineered laboratory environments.
+Cyanobacteria are relevant because selected strains have been investigated for Martian bioregenerative life-support concepts, including low-pressure gas mixtures and regolith-derived nutrients [[14](#ref-14), [15](#ref-15), [16](#ref-16), [17](#ref-17)]. However, exposed Martian surface conditions are not equivalent to those engineered laboratory environments.
 
 Therefore Stage 2 should be formulated as:
 
@@ -722,7 +722,7 @@ not direct ecological release.
 
 ### 8.7 Planetary protection
 
-Current COSPAR planetary-protection policy treats Mars as a target requiring stringent controls against harmful forward contamination [13]. An intentional open release of terrestrial organisms would conflict with the scientific and policy logic of present-day planetary protection.
+Current COSPAR planetary-protection policy treats Mars as a target requiring stringent controls against harmful forward contamination [[13](#ref-13)]. An intentional open release of terrestrial organisms would conflict with the scientific and policy logic of present-day planetary protection.
 
 Accordingly:
 
@@ -956,39 +956,73 @@ For formal scholarly publication, **J.P. De Luca is the sole responsible author*
 
 ## References
 
-1. **NIST Chemistry WebBook, SRD 69.** Carbon dioxide, CAS 124-38-9. National Institute of Standards and Technology. Standard gas-phase thermochemistry: $\Delta_f H^\circ_{\mathrm{gas}}\approx -393.51\ \mathrm{kJ\,mol^{-1}}$.
+<a id="ref-1"></a>
 
-2. **NIST Chemistry WebBook, SRD 69.** Carbon monoxide, CAS 630-08-0. National Institute of Standards and Technology. Standard gas-phase thermochemistry: $\Delta_f H^\circ_{\mathrm{gas}}\approx -110.53\ \mathrm{kJ\,mol^{-1}}$.
+1. **NIST Chemistry WebBook, SRD 69.** Carbon dioxide, CAS 124-38-9. National Institute of Standards and Technology. Standard gas-phase thermochemistry: $\Delta_f H^\circ_{\mathrm{gas}}\approx -393.51\ \mathrm{kJ\,mol^{-1}}$. [NIST entry](https://webbook.nist.gov/cgi/cbook.cgi?ID=C124389&Mask=1)
 
-3. Hoffman, J. A.; Hecht, M. H.; Rapp, D.; et al. **Mars Oxygen ISRU Experiment (MOXIE)—Preparing for human Mars exploration.** *Science Advances* **2022**, *8*(35), eabp8636. DOI: **10.1126/sciadv.abp8636**.
+<a id="ref-2"></a>
 
-4. NASA. **NASA’s Oxygen-Generating Experiment MOXIE Completes Mars Mission.** 2023. MOXIE ultimately produced 122 g of oxygen and reached approximately 12 g h⁻¹ at ≥98% purity.
+2. **NIST Chemistry WebBook, SRD 69.** Carbon monoxide, CAS 630-08-0. National Institute of Standards and Technology. Standard gas-phase thermochemistry: $\Delta_f H^\circ_{\mathrm{gas}}\approx -110.53\ \mathrm{kJ\,mol^{-1}}$. [NIST entry](https://webbook.nist.gov/cgi/cbook.cgi?ID=C630080&Mask=1)
 
-5. Yang, Y.; Murphy, A. B. **CO₂ conversion using non-thermal plasmas: The path towards industrialisation.** *Current Opinion in Green and Sustainable Chemistry* **2025**, *51*, 100994. DOI: **10.1016/j.cogsc.2024.100994**.
+<a id="ref-3"></a>
 
-6. Wanten, B.; Vertongen, R.; De Meyer, R.; Bogaerts, A. **Plasma-based CO₂ conversion: How to correctly analyze the performance?** *Journal of Energy Chemistry* **2023**, *86*, 180–196. DOI: **10.1016/j.jechem.2023.07.005**.
+3. Hoffman, J. A.; Hecht, M. H.; Rapp, D.; et al. **Mars Oxygen ISRU Experiment (MOXIE)—Preparing for human Mars exploration.** *Science Advances* **2022**, *8*(35), eabp8636. [DOI: 10.1126/sciadv.abp8636](https://doi.org/10.1126/sciadv.abp8636).
 
-7. Ashford, B.; Tu, X. **Non-thermal plasma technology for the conversion of CO₂.** *Current Opinion in Green and Sustainable Chemistry* **2017**, *3*, 45–49. DOI: **10.1016/j.cogsc.2016.12.001**.
+<a id="ref-4"></a>
 
-8. Shah, Y. T.; Verma, J.; Katti, S. S. **Plasma activated catalysis for carbon dioxide dissociation: A review.** *Journal of the Indian Chemical Society* **2021**, *98*(10), 100152. DOI: **10.1016/j.jics.2021.100152**.
+4. NASA. **NASA’s Oxygen-Generating Experiment MOXIE Completes Mars Mission.** 2023. MOXIE ultimately produced 122 g of oxygen and reached approximately 12 g h⁻¹ at ≥98% purity. [NASA](https://www.nasa.gov/solar-system/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/).
 
-9. **Solar–gliding arc plasma reactor for carbon dioxide decomposition: Design and characterization.** *Solar Energy* **2019**. The paper reviews vortex/gliding-arc benchmarks and illustrates the relevance of flow topology to CO₂ plasma conversion.
+<a id="ref-5"></a>
 
-10. NASA. **NASA/TM—2018-219945.** Mars engineering environment reference values including average irradiance near 590 W m⁻² and representative surface air density near 0.020 kg m⁻³.
+5. Yang, Y.; Murphy, A. B. **CO₂ conversion using non-thermal plasmas: The path towards industrialisation.** *Current Opinion in Green and Sustainable Chemistry* **2025**, *51*, 100994. [DOI: 10.1016/j.cogsc.2024.100994](https://doi.org/10.1016/j.cogsc.2024.100994).
 
-11. NASA. **Analysis of Wind Power on Mars.** Technical assessment discussing $P/A=\rho v^3/2$ and the strong limitation imposed by low Martian atmospheric density.
+<a id="ref-6"></a>
 
-12. NASA Technical Reports Server. **Mars Balloon Flight Test Results.** Stratospheric deployment tests of prototype Mars superpressure balloons under low-density analog conditions; NTRS citation 20150011965.
+6. Wanten, B.; Vertongen, R.; De Meyer, R.; Bogaerts, A. **Plasma-based CO₂ conversion: How to correctly analyze the performance?** *Journal of Energy Chemistry* **2023**, *86*, 180–196. [DOI: 10.1016/j.jechem.2023.07.005](https://doi.org/10.1016/j.jechem.2023.07.005).
 
-13. Committee on Space Research (COSPAR). **COSPAR Policy on Planetary Protection.** 2026 edition. Current policy framework for biological and organic contamination control in planetary missions.
+<a id="ref-7"></a>
 
-14. Verseux, C.; et al. **A Low-Pressure, N₂/CO₂ Atmosphere Is Suitable for Cyanobacterium-Based Life-Support Systems on Mars.** *Frontiers in Microbiology* **2021**, *12*, 611798. DOI: **10.3389/fmicb.2021.611798**.
+7. Ashford, B.; Tu, X. **Non-thermal plasma technology for the conversion of CO₂.** *Current Opinion in Green and Sustainable Chemistry* **2017**, *3*, 45–49. [DOI: 10.1016/j.cogsc.2016.12.001](https://doi.org/10.1016/j.cogsc.2016.12.001).
 
-15. Macário, I. P. E.; et al. **Cyanobacteria as Candidates to Support Mars Colonization: Growth and Biofertilization Potential Using Mars Regolith as a Resource.** *Frontiers in Microbiology* **2022**, *13*, 840098. DOI: **10.3389/fmicb.2022.840098**.
+<a id="ref-8"></a>
 
-16. Fahrion, J.; Mastroleo, F.; Dussap, C.-G.; Leys, N. **Use of Photobioreactors in Regenerative Life Support Systems for Human Space Exploration.** *Frontiers in Microbiology* **2021**, *12*, 699525. DOI: **10.3389/fmicb.2021.699525**.
+8. Shah, Y. T.; Verma, J.; Katti, S. S. **Plasma activated catalysis for carbon dioxide dissociation: A review.** *Journal of the Indian Chemical Society* **2021**, *98*(10), 100152. [DOI: 10.1016/j.jics.2021.100152](https://doi.org/10.1016/j.jics.2021.100152).
 
-17. Rodrigues, D.; McCormick, A. J. **Exploring the biology of cyanobacteria in life support systems on Mars.** *Frontiers in Astronomy and Space Sciences* **2026**, *13*, 1853934. DOI: **10.3389/fspas.2026.1853934**.
+<a id="ref-9"></a>
+
+9. Nagassou, D.; Mohsenian, S.; Bhatta, S.; Elahi, R.; Trelles, J. P. **Solar–gliding arc plasma reactor for carbon dioxide decomposition: Design and characterization.** *Solar Energy* **2019**, *180*, 678–689. [DOI: 10.1016/j.solener.2019.01.070](https://doi.org/10.1016/j.solener.2019.01.070).
+
+<a id="ref-10"></a>
+
+10. NASA. **NASA/TM—2018-219945.** Mars engineering environment reference values including average irradiance near 590 W m⁻² and representative surface air density near 0.020 kg m⁻³. [NASA Technical Reports Server](https://ntrs.nasa.gov/citations/20200004325).
+
+<a id="ref-11"></a>
+
+11. NASA. **Analysis of Wind Power on Mars.** Technical assessment discussing $P/A=\rho v^3/2$ and the strong limitation imposed by low Martian atmospheric density. [NASA Technical Reports Server](https://ntrs.nasa.gov/citations/19930009659).
+
+<a id="ref-12"></a>
+
+12. Hall, J. L.; Pauken, M. T.; Kerzhanovich, V. V.; et al. **Mars Balloon Flight Test Results.** AIAA Balloon Systems Conference, 2009; NTRS citation 20150011965. [NASA Technical Reports Server](https://ntrs.nasa.gov/citations/20150011965).
+
+<a id="ref-13"></a>
+
+13. Committee on Space Research (COSPAR). **COSPAR Policy on Planetary Protection.** 2026 edition. Current policy framework for biological and organic contamination control in planetary missions. [COSPAR](https://cosparhq.cnes.fr/cospar-policy-on-planetary-protection/).
+
+<a id="ref-14"></a>
+
+14. Verseux, C.; et al. **A Low-Pressure, N₂/CO₂ Atmosphere Is Suitable for Cyanobacterium-Based Life-Support Systems on Mars.** *Frontiers in Microbiology* **2021**, *12*, 611798. [DOI: 10.3389/fmicb.2021.611798](https://doi.org/10.3389/fmicb.2021.611798).
+
+<a id="ref-15"></a>
+
+15. Macário, I. P. E.; et al. **Cyanobacteria as Candidates to Support Mars Colonization: Growth and Biofertilization Potential Using Mars Regolith as a Resource.** *Frontiers in Microbiology* **2022**, *13*, 840098. [DOI: 10.3389/fmicb.2022.840098](https://doi.org/10.3389/fmicb.2022.840098).
+
+<a id="ref-16"></a>
+
+16. Fahrion, J.; Mastroleo, F.; Dussap, C.-G.; Leys, N. **Use of Photobioreactors in Regenerative Life Support Systems for Human Space Exploration.** *Frontiers in Microbiology* **2021**, *12*, 699525. [DOI: 10.3389/fmicb.2021.699525](https://doi.org/10.3389/fmicb.2021.699525).
+
+<a id="ref-17"></a>
+
+17. Rodrigues, D.; McCormick, A. J. **Exploring the biology of cyanobacteria in life support systems on Mars.** *Frontiers in Astronomy and Space Sciences* **2026**, *13*, 1853934. [DOI: 10.3389/fspas.2026.1853934](https://doi.org/10.3389/fspas.2026.1853934).
 
 ---
 
