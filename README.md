@@ -5,7 +5,7 @@
 **A Conceptual Architecture for Plasma-Vortex ISRU and Autonomous Microreactors**
 
 **Author:** J.P. De Luca  
-**Version:** 0.2.3 — Concept Paper  
+**Version:** 0.2.4 — Concept Paper  
 **Date:** September 2026
 
 > This repository contains a **speculative, experimental concept study**. It is not a validated mission architecture, demonstrated plasma reactor, terraforming protocol, or engineering specification. The paper explicitly separates demonstrated evidence, literature-supported mechanisms, engineering extrapolation, and long-horizon speculation.
@@ -26,7 +26,7 @@ A second, deliberately more speculative branch considers **contained biological 
 
 📄 **[Read the full concept paper](paper.md)**
 
-📦 **[Archived v0.2.3 release on Zenodo](https://doi.org/10.5281/zenodo.22244600)**
+📦 **Latest archived release on Zenodo: [v0.2.3](https://doi.org/10.5281/zenodo.22244600)**
 
 The manuscript includes:
 
@@ -88,11 +88,13 @@ The project deliberately treats this as a **falsifiable engineering question**, 
 
 ## Citation and archival
 
-Version **v0.2.3** is permanently archived on Zenodo:
+The latest currently archived version on Zenodo is **v0.2.3**:
 
 **De Luca, J. P. (2026). _Distributed Martian Atmospheric CO₂ Processing Swarms: A Conceptual Architecture for Plasma-Vortex ISRU and Autonomous Microreactors_ (Version v0.2.3). Zenodo. https://doi.org/10.5281/zenodo.22244600**
 
 DOI: **[10.5281/zenodo.22244600](https://doi.org/10.5281/zenodo.22244600)**
+
+The repository `main` branch and `paper.md` are currently prepared for **v0.2.4**. Once that release is archived by Zenodo, this section can be updated to its version-specific DOI.
 
 Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff).
 
