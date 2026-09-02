@@ -1,6 +1,6 @@
 # Distributed Martian Atmospheric CO₂ Processing Swarms
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22244600.svg)](https://doi.org/10.5281/zenodo.22244600)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22249025.svg)](https://doi.org/10.5281/zenodo.22249025)
 
 **A Conceptual Architecture for Plasma-Vortex ISRU and Autonomous Microreactors**
 
@@ -26,7 +26,7 @@ A second, deliberately more speculative branch considers **contained biological 
 
 📄 **[Read the full concept paper](paper.md)**
 
-📦 **Latest archived release on Zenodo: [v0.2.3](https://doi.org/10.5281/zenodo.22244600)**
+📦 **[Archived v0.2.4 release on Zenodo](https://doi.org/10.5281/zenodo.22249025)**
 
 The manuscript includes:
 
@@ -88,13 +88,11 @@ The project deliberately treats this as a **falsifiable engineering question**, 
 
 ## Citation and archival
 
-The latest currently archived version on Zenodo is **v0.2.3**:
+Version **v0.2.4** is permanently archived on Zenodo:
 
-**De Luca, J. P. (2026). _Distributed Martian Atmospheric CO₂ Processing Swarms: A Conceptual Architecture for Plasma-Vortex ISRU and Autonomous Microreactors_ (Version v0.2.3). Zenodo. https://doi.org/10.5281/zenodo.22244600**
+**De Luca, J. P. (2026). _Distributed Martian Atmospheric CO₂ Processing Swarms: A Conceptual Architecture for Plasma-Vortex ISRU and Autonomous Microreactors_ (Version v0.2.4). Zenodo. https://doi.org/10.5281/zenodo.22249025**
 
-DOI: **[10.5281/zenodo.22244600](https://doi.org/10.5281/zenodo.22244600)**
-
-The repository `main` branch and `paper.md` are currently prepared for **v0.2.4**. Once that release is archived by Zenodo, this section can be updated to its version-specific DOI.
+DOI: **[10.5281/zenodo.22249025](https://doi.org/10.5281/zenodo.22249025)**
 
 Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff).
 
@@ -108,4 +106,4 @@ For formal scholarly publication, **J.P. De Luca is the responsible author** and
 
 Unless otherwise noted, the manuscript, concept figures, and documentation in this repository are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. See [`LICENSE`](LICENSE).
 
-The archived Zenodo v0.2.3 record applies the same license to all files in that deposition. Future software or source-code components, if added, may be licensed separately.
+The archived Zenodo v0.2.4 record applies the same license to all files in that deposition. Future software or source-code components, if added, may be licensed separately.
