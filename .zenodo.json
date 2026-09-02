@@ -3,7 +3,7 @@
   "upload_type": "publication",
   "publication_type": "report",
   "publication_date": "2026-09-02",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "language": "eng",
   "description": "A speculative concept study exploring distributed swarms of autonomous ultralight atmospheric microdevices for Martian CO₂ processing using compact plasma-vortex reactors. The manuscript distinguishes demonstrated evidence, literature-supported mechanisms, engineering extrapolation, and long-horizon speculation, and frames the architecture as a falsifiable research hypothesis rather than a validated mission design.",
   "notes": "Concept paper. Stage 1 examines distributed physicochemical CO₂ processing using compact plasma-flow reactors. Stage 2 is a substantially more speculative protected biological micro-habitat extension and is not proposed as an open biological release under current planetary-protection constraints.",
@@ -35,7 +35,7 @@
       "relation": "isSupplementTo"
     },
     {
-      "identifier": "https://github.com/juninhodeluca/martian-co2-processing-swarms/releases/tag/v0.2.3",
+      "identifier": "https://github.com/juninhodeluca/martian-co2-processing-swarms/releases/tag/v0.2.4",
       "relation": "isSupplementTo"
     }
   ],
