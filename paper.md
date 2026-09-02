@@ -4,7 +4,7 @@
 
 **J.P. De Luca**
 
-**Version:** 0.2 — Concept Paper  
+**Version:** 0.2.3 — Concept Paper
 **Date:** September 2026
 
 > **Status of this work.** This manuscript is a **mental, experimental, and speculative concept study**. It is not a validated mission architecture, demonstrated plasma reactor, terraforming protocol, or engineering specification. The paper deliberately distinguishes (i) experimentally demonstrated facts, (ii) literature-supported physical mechanisms, (iii) engineering extrapolations proposed here, and (iv) long-horizon speculative extensions.
@@ -27,9 +27,7 @@ Long-duration operations on Mars benefit strongly from **in-situ resource utiliz
 
 This study began from the idealized decomposition
 
-$$
-\mathrm{CO_2 \rightarrow C + O_2}
-$$
+$$\mathrm{CO_2 \rightarrow C + O_2}$$
 
 and then explored whether electrical plasma could provide a practical activation pathway. The concept subsequently evolved through several discarded architectures:
 
@@ -45,13 +43,9 @@ A second speculative extension asks whether the same deployable platform could l
 
 The project therefore consists of two concept layers:
 
-$$
-\boxed{\text{Stage 1: Distributed physicochemical CO₂ processing}}
-$$
+$$\boxed{\text{Stage 1: Distributed physicochemical CO₂ processing}}$$
 
-$$
-\boxed{\text{Stage 2: Speculative protected biological micro-habitats}}
-$$
+$$\boxed{\text{Stage 2: Speculative protected biological micro-habitats}}$$
 
 Stage 1 is an engineering research hypothesis. Stage 2 is a far-future astrobiological thought experiment and, under current planetary-protection principles, must remain a contained experimental concept rather than an open-release proposal [13].
 
@@ -69,7 +63,7 @@ A local oxygen-production system can support:
 - chemical synthesis;
 - redundancy for future human infrastructure.
 
-MOXIE produced oxygen directly from the Martian atmosphere and ultimately demonstrated production rates up to approximately 12 g h⁻¹ with purity of at least 98% during its mission [4]. The experiment is a crucial benchmark because it establishes that atmospheric ISRU is not merely theoretical.
+MOXIE produced oxygen directly from the Martian atmosphere and ultimately demonstrated production rates up to approximately 12 g h⁻¹ with purity of at least 98% during its mission [4](#4-thermodynamic-and-chemical-baseline). The experiment is a crucial benchmark because it establishes that atmospheric ISRU is not merely theoretical.
 
 The swarm concept does **not** assume that plasma must outperform solid-oxide electrolysis. Rather, it asks a different architectural question:
 
@@ -92,25 +86,21 @@ A large stationary refinery can achieve high throughput but typically depends on
 
 A swarm architecture trades unit efficiency for deployment flexibility:
 
-| Property | Distributed swarm | Large fixed plant |
-|---|---:|---:|
-| Initial infrastructure dependence | Low | High |
-| Independent mission deployment | High | Low |
-| Fault tolerance | High | Low–medium |
-| Incremental scaling | Excellent | Stepwise |
-| Per-unit throughput | Low | High |
-| Maintenance efficiency | Low | High |
-| Technology refresh | Generation-by-generation | Slow |
-| Geographic coverage | Planetary | Local |
-| Scientific sensing value | Very high | Local |
+| Property                          |        Distributed swarm | Large fixed plant |
+| --------------------------------- | -----------------------: | ----------------: |
+| Initial infrastructure dependence |                      Low |              High |
+| Independent mission deployment    |                     High |               Low |
+| Fault tolerance                   |                     High |        Low–medium |
+| Incremental scaling               |                Excellent |          Stepwise |
+| Per-unit throughput               |                      Low |              High |
+| Maintenance efficiency            |                      Low |              High |
+| Technology refresh                | Generation-by-generation |              Slow |
+| Geographic coverage               |                Planetary |             Local |
+| Scientific sensing value          |                Very high |             Local |
 
 The central strategic hypothesis is therefore:
 
-$$
-\boxed{
-\text{For early Mars development, survivable low-throughput units may be useful before high-throughput infrastructure is practical.}
-}
-$$
+$$\boxed{ \text{For early Mars development, survivable low-throughput units may be useful before high-throughput infrastructure is practical.} }$$
 
 ---
 
@@ -137,15 +127,11 @@ Plasma conversion remains at low technology readiness relative to mature industr
 
 Mars has a thin, CO₂-dominated atmosphere. A NASA engineering reference gives a representative surface atmospheric density of approximately
 
-$$
-\rho_{\mathrm{Mars}} \approx 0.020\ \mathrm{kg\,m^{-3}}
-$$
+$$\rho_{\mathrm{Mars}} \approx 0.020\ \mathrm{kg\,m^{-3}}$$
 
 and an average solar irradiance above the atmosphere of approximately
 
-$$
-I_{\mathrm{Mars}} \approx 590\ \mathrm{W\,m^{-2}}
-$$
+$$I_{\mathrm{Mars}} \approx 590\ \mathrm{W\,m^{-2}}$$
 
 [10].
 
@@ -159,23 +145,17 @@ The low density makes the atmosphere chemically abundant in **composition** but 
 
 The ideal kinetic power available in a flow is
 
-$$
-P_{\mathrm{wind}}=\frac{1}{2}\rho A v^3 .
-$$
+$$P_{\mathrm{wind}}=\frac{1}{2}\rho A v^3 .$$
 
 Because $P_{\mathrm{wind}}$ scales linearly with density, Mars' low atmospheric density strongly penalizes small wind-energy harvesters. Historical NASA analyses found conventional Martian wind power unattractive for near-term surface power under representative atmospheric conditions [11].
 
 An additional problem appears for **free-drifting** devices. A balloon or passive vehicle that accelerates until its velocity approaches the local air velocity experiences decreasing relative wind:
 
-$$
-v_{\mathrm{rel}} = v_{\mathrm{air}}-v_{\mathrm{vehicle}}
-$$
+$$v_{\mathrm{rel}} = v_{\mathrm{air}}-v_{\mathrm{vehicle}}$$
 
 and, for an ideal passive drifter,
 
-$$
-v_{\mathrm{rel}}\rightarrow 0 .
-$$
+$$v_{\mathrm{rel}}\rightarrow 0 .$$
 
 Thus the atmospheric flow can remain useful for:
 
@@ -188,9 +168,7 @@ while being a poor assumption for continuous standalone energy generation.
 
 The preferred architecture therefore evolved toward
 
-$$
-\boxed{\text{solar energy for chemistry} + \text{wind for transport/navigation}}
-$$
+$$\boxed{\text{solar energy for chemistry} + \text{wind for transport/navigation}}$$
 
 rather than wind-only microturbines.
 
@@ -202,9 +180,7 @@ Mars balloon concepts have been studied experimentally, including superpressure-
 
 A useful first-order buoyancy estimate is
 
-$$
-F_b \approx (\rho_{\mathrm{CO_2}}-\rho_{\mathrm{lift}})Vg .
-$$
+$$F_b \approx (\rho_{\mathrm{CO_2}}-\rho_{\mathrm{lift}})Vg .$$
 
 For an ultralight lifting gas, the ideal net mass capacity is only on the order of tens of grams per cubic metre near representative surface density. Therefore a "small device" may still require a **large-area ultrathin envelope**.
 
@@ -226,9 +202,7 @@ An early branch of the concept proposed using Martian polar CO₂ ice. Solid CO�
 
 For plasma processing, the likely sequence is
 
-$$
-\mathrm{CO_2(s)\rightarrow CO_2(g)\rightarrow plasma\ processing}.
-$$
+$$\mathrm{CO_2(s)\rightarrow CO_2(g)\rightarrow plasma\ processing}.$$
 
 The solid phase therefore acts more naturally as:
 
@@ -246,48 +220,29 @@ However, polar processing reintroduces centralized infrastructure and transport 
 
 The idealized full reaction is
 
-$$
-\mathrm{CO_2(g)\rightarrow C(s)+O_2(g)}.
-$$
+$$\mathrm{CO_2(g)\rightarrow C(s)+O_2(g)}.$$
 
 Using standard thermochemical data for CO₂, the reverse of carbon combustion has a standard enthalpy requirement of approximately
 
-$$
-\Delta H^\circ \approx +393.5\ \mathrm{kJ\,mol^{-1}}
-$$
+$$\Delta H^\circ \approx +393.5\ \mathrm{kJ\,mol^{-1}}$$
 
 [1].
 
 With a molar mass of approximately
 
-$$
-M_{\mathrm{CO_2}}=44.01\ \mathrm{g\,mol^{-1}},
-$$
+$$M_{\mathrm{CO_2}}=44.01\ \mathrm{g\,mol^{-1}},$$
 
 the corresponding ideal enthalpy scale is
 
-$$
-\frac{393.5\ \mathrm{kJ\,mol^{-1}}}{0.04401\ \mathrm{kg\,mol^{-1}}}
-\approx 8.94\ \mathrm{MJ\,kg^{-1}_{CO_2}}.
-$$
+$$\frac{393.5\ \mathrm{kJ\,mol^{-1}}}{0.04401\ \mathrm{kg\,mol^{-1}}} \approx 8.94\ \mathrm{MJ\,kg^{-1}_{CO_2}}.$$
 
 The mass balance is
 
-$$
-44\ \mathrm{kg\ CO_2}
-\rightarrow
-12\ \mathrm{kg\ C}
-+
-32\ \mathrm{kg\ O_2}.
-$$
+$$44\ \mathrm{kg\ CO_2} \rightarrow 12\ \mathrm{kg\ C} + 32\ \mathrm{kg\ O_2}.$$
 
 Therefore, at complete decomposition,
 
-$$
-1\ \mathrm{kg\ CO_2}
-\rightarrow
-0.727\ \mathrm{kg\ O_2}.
-$$
+$$1\ \mathrm{kg\ CO_2} \rightarrow 0.727\ \mathrm{kg\ O_2}.$$
 
 This route maximizes oxygen recovered per unit mass of CO₂, but it is **not** the preferred first experimental target because direct formation and controlled collection of elemental carbon introduce additional plasma-chemistry and surface-engineering problems.
 
@@ -297,45 +252,23 @@ This route maximizes oxygen recovered per unit mass of CO₂, but it is **not** 
 
 The more established target reaction is
 
-$$
-\mathrm{CO_2\rightarrow CO+\frac{1}{2}O_2}.
-$$
+$$\mathrm{CO_2\rightarrow CO+\frac{1}{2}O_2}.$$
 
 Using NIST standard formation enthalpies for CO₂ and CO [1,2],
 
-$$
-\Delta H^\circ
-\approx
-(-110.53)-(-393.51)
-=
-+282.98\ \mathrm{kJ\,mol^{-1}}.
-$$
+$$\Delta H^\circ \approx (-110.53)-(-393.51) = +282.98\ \mathrm{kJ\,mol^{-1}}.$$
 
 Therefore,
 
-$$
-\frac{282.98}{0.04401}
-\approx
-6.43\ \mathrm{MJ\,kg^{-1}_{CO_2}}.
-$$
+$$\frac{282.98}{0.04401} \approx 6.43\ \mathrm{MJ\,kg^{-1}_{CO_2}}.$$
 
 The mass balance is
 
-$$
-44\ \mathrm{kg\ CO_2}
-\rightarrow
-28\ \mathrm{kg\ CO}
-+
-16\ \mathrm{kg\ O_2},
-$$
+$$44\ \mathrm{kg\ CO_2} \rightarrow 28\ \mathrm{kg\ CO} + 16\ \mathrm{kg\ O_2},$$
 
 so
 
-$$
-1\ \mathrm{kg\ CO_2}
-\rightarrow
-0.364\ \mathrm{kg\ O_2}.
-$$
+$$1\ \mathrm{kg\ CO_2} \rightarrow 0.364\ \mathrm{kg\ O_2}.$$
 
 This is the preferred Stage-1 reaction because it matches both established plasma-conversion literature and the reaction demonstrated electrochemically by MOXIE.
 
@@ -347,23 +280,15 @@ Several conceptual illustrations show an outlet labeled "CO + O". This should be
 
 A simplified plasma pathway is
 
-$$
-e^- + CO_2 \rightarrow CO + O + e^-,
-$$
+$$e^- + CO_2 \rightarrow CO + O + e^-,$$
 
 followed by oxygen recombination such as
 
-$$
-O+O+M\rightarrow O_2+M.
-$$
+$$O+O+M\rightarrow O_2+M.$$
 
 The engineering target is therefore better written as
 
-$$
-\boxed{
-2CO_2 \rightarrow 2CO+O_2
-}
-$$
+$$\boxed{ 2CO_2 \rightarrow 2CO+O_2 }$$
 
 after quenching and recombination control.
 
@@ -377,21 +302,7 @@ This distinction is important: atomic oxygen is highly reactive and should not b
 
 The adopted functional architecture is:
 
-$$
-\text{Atmospheric CO}_2
-\rightarrow
-\text{intake}
-\rightarrow
-\text{flow conditioning}
-\rightarrow
-\text{plasma-vortex core(s)}
-\rightarrow
-\text{quench}
-\rightarrow
-\text{CO/O}_2\text{-rich exhaust}
-\rightarrow
-\text{optional separation}
-$$
+$$\text{Atmospheric CO}_2 \rightarrow \text{intake} \rightarrow \text{flow conditioning} \rightarrow \text{plasma-vortex core(s)} \rightarrow \text{quench} \rightarrow \text{CO/O}_2\text{-rich exhaust} \rightarrow \text{optional separation}$$
 
 Each unit would ideally provide:
 
@@ -413,9 +324,7 @@ The concept was inspired by magnetically influenced plasma-vortex demonstrations
 
 The governing charged-particle force is
 
-$$
-\mathbf F=q(\mathbf E+\mathbf v\times\mathbf B).
-$$
+$$\mathbf F=q(\mathbf E+\mathbf v\times\mathbf B).$$
 
 A magnetic field can alter electron and ion trajectories and can participate in shaping or rotating a discharge. Neutral CO₂ molecules, however, are not directly forced into macroscopic rotation by the magnetic field. Their coupling occurs through:
 
@@ -427,13 +336,7 @@ A magnetic field can alter electron and ion trajectories and can participate in 
 
 Thus the preferred reactor concept combines two distinct mechanisms:
 
-$$
-\boxed{
-\text{magnetically organized plasma}
-+
-\text{aerodynamically conditioned neutral-gas flow}
-}
-$$
+$$\boxed{ \text{magnetically organized plasma} + \text{aerodynamically conditioned neutral-gas flow} }$$
 
 rather than assuming direct magnetic control of neutral CO₂.
 
@@ -443,15 +346,11 @@ rather than assuming direct magnetic control of neutral CO₂.
 
 A central plasma parameter is the reduced electric field
 
-$$
-\frac{E}{N},
-$$
+$$\frac{E}{N},$$
 
 where $E$ is electric-field strength and $N$ is gas number density. It is commonly expressed in Townsend:
 
-$$
-1\ \mathrm{Td}=10^{-21}\ \mathrm{V\,m^2}.
-$$
+$$1\ \mathrm{Td}=10^{-21}\ \mathrm{V\,m^2}.$$
 
 $E/N$ influences the electron-energy distribution and therefore the fraction of input energy directed into:
 
@@ -469,25 +368,17 @@ The plasma literature emphasizes that vibrational activation can be particularly
 
 The conceptual advantage of a vortex geometry is not merely visual rotation. The engineering objective is to increase the effective interaction time
 
-$$
-\tau
-$$
+$$\tau$$
 
 between the gas stream and the active plasma region.
 
 A representative helical path can be parameterized as
 
-$$
-x(t)=r\cos(\omega t),
-$$
+$$x(t)=r\cos(\omega t),$$
 
-$$
-y(t)=r\sin(\omega t),
-$$
+$$y(t)=r\sin(\omega t),$$
 
-$$
-z(t)=v_z t.
-$$
+$$z(t)=v_z t.$$
 
 The actual gas trajectory would depend on reactor geometry and fluid dynamics, but this representation captures the design intent: a longer path through a compact active zone.
 
@@ -497,17 +388,7 @@ The actual gas trajectory would depend on reactor geometry and fluid dynamics, b
 
 Rather than increasing one reactor indefinitely, the concept favors modular stages:
 
-$$
-\mathrm{CO_2}
-\rightarrow
-V_1
-\rightarrow
-V_2
-\rightarrow
-V_3
-\rightarrow
-\mathrm{quench}.
-$$
+$$\mathrm{CO_2} \rightarrow V_1 \rightarrow V_2 \rightarrow V_3 \rightarrow \mathrm{quench}.$$
 
 Potential advantages include:
 
@@ -532,22 +413,22 @@ This is therefore an empirical optimization variable.
 
 ### 6.1 Concept evolution
 
-| Concept | Decision | Primary reason |
-|---|---|---|
-| Direct $CO_2\rightarrow C+O_2$ | Retained as ideal thermodynamic endpoint | Highest theoretical O₂ recovery; useful benchmark |
-| Tesla-coil free discharge | Rejected as primary reactor | Poor gas contact, residence-time control, and product capture |
-| Solid CO₂ directly in plasma | Rejected as preferred reaction state | Plasma chemistry primarily benefits from gas-phase feed |
-| Polar fixed refinery | Retained as future centralized comparison | High feedstock concentration, but large infrastructure burden |
-| Wind turbine + Tesla tower | Deprioritized | Low Martian wind power density and poor chemical control |
-| Turbine and plasma on same tower | Deprioritized | Still centralized; subsystem functions unnecessarily coupled |
-| Vortex/gliding-arc-inspired reactor | Retained | Literature-supported class; improved gas–plasma interaction |
-| Magnetically organized plasma core | Retained as research hypothesis | Potential discharge shaping and compact geometry |
-| Multiple reactor cores | Retained | Modular scale-out and progressive conversion |
-| Free atmospheric swarm | Retained as system architecture | Incremental deployment and fault tolerance |
-| Wind-only flying generator | Rejected | Passive drifter loses relative wind; low density |
-| Solar + atmospheric transport | Retained | Better separation of energy and mobility functions |
-| Open spraying of water/seeds | Rejected | Poor water stability and biological survivability |
-| Protected biological micro-habitats | Retained as speculative Stage 2 | Physically and biologically more coherent |
+| Concept                             | Decision                                  | Primary reason                                                |
+| ----------------------------------- | ----------------------------------------- | ------------------------------------------------------------- |
+| Direct $CO_2\rightarrow C+O_2$      | Retained as ideal thermodynamic endpoint  | Highest theoretical O₂ recovery; useful benchmark             |
+| Tesla-coil free discharge           | Rejected as primary reactor               | Poor gas contact, residence-time control, and product capture |
+| Solid CO₂ directly in plasma        | Rejected as preferred reaction state      | Plasma chemistry primarily benefits from gas-phase feed       |
+| Polar fixed refinery                | Retained as future centralized comparison | High feedstock concentration, but large infrastructure burden |
+| Wind turbine + Tesla tower          | Deprioritized                             | Low Martian wind power density and poor chemical control      |
+| Turbine and plasma on same tower    | Deprioritized                             | Still centralized; subsystem functions unnecessarily coupled  |
+| Vortex/gliding-arc-inspired reactor | Retained                                  | Literature-supported class; improved gas–plasma interaction   |
+| Magnetically organized plasma core  | Retained as research hypothesis           | Potential discharge shaping and compact geometry              |
+| Multiple reactor cores              | Retained                                  | Modular scale-out and progressive conversion                  |
+| Free atmospheric swarm              | Retained as system architecture           | Incremental deployment and fault tolerance                    |
+| Wind-only flying generator          | Rejected                                  | Passive drifter loses relative wind; low density              |
+| Solar + atmospheric transport       | Retained                                  | Better separation of energy and mobility functions            |
+| Open spraying of water/seeds        | Rejected                                  | Poor water stability and biological survivability             |
+| Protected biological micro-habitats | Retained as speculative Stage 2           | Physically and biologically more coherent                     |
 
 ---
 
@@ -569,9 +450,7 @@ This is therefore an empirical optimization variable.
 
 **Correction to the illustration.** Labels showing "CO + O" represent short-lived reactive products near the plasma. The preferred stable bulk target after quenching is $CO+O_2$, consistent with
 
-$$
-2CO_2\rightarrow 2CO+O_2.
-$$
+$$2CO_2\rightarrow 2CO+O_2.$$
 
 **Interpretation.** The figure captures the core reactor hypothesis: the gas is **forced through a controlled energetic volume** instead of being incidentally struck by a free discharge.
 
@@ -623,43 +502,27 @@ $$
 
 For the partial reaction
 
-$$
-CO_2\rightarrow CO+\frac{1}{2}O_2,
-$$
+$$CO_2\rightarrow CO+\frac{1}{2}O_2,$$
 
 the ideal enthalpy requirement is approximately
 
-$$
-6.43\ \mathrm{MJ\,kg^{-1}_{CO_2}}.
-$$
+$$6.43\ \mathrm{MJ\,kg^{-1}_{CO_2}}.$$
 
 For a unit processing
 
-$$
-\dot m=1\ \mathrm{g\,h^{-1}},
-$$
+$$\dot m=1\ \mathrm{g\,h^{-1}},$$
 
 the reaction-enthalpy rate is
 
-$$
-P_{\mathrm{chem,ideal}}
-=
-\frac{6.43\times10^6\times10^{-3}}{3600}
-\approx
-1.79\ \mathrm{W}.
-$$
+$$P_{\mathrm{chem,ideal}} = \frac{6.43\times10^6\times10^{-3}}{3600} \approx 1.79\ \mathrm{W}.$$
 
 At
 
-$$
-10\ \mathrm{g\,h^{-1}},
-$$
+$$10\ \mathrm{g\,h^{-1}},$$
 
 the ideal value becomes approximately
 
-$$
-17.9\ \mathrm{W}.
-$$
+$$17.9\ \mathrm{W}.$$
 
 These are **thermodynamic floors**, not electrical input requirements. Real plasma systems must also pay for:
 
@@ -679,33 +542,19 @@ Thus a hypothetical 10–200 W electrical device processing approximately 1–10
 
 Using a representative total atmospheric density
 
-$$
-\rho\approx0.020\ \mathrm{kg\,m^{-3}}
-$$
+$$\rho\approx0.020\ \mathrm{kg\,m^{-3}}$$
 
 and assuming approximately 95% of the atmospheric mass stream is CO₂ for a first-order estimate, processing $1\ \mathrm{g\,h^{-1}}$ of CO₂ requires an ambient volume on the order of
 
-$$
-\dot V
-\approx
-\frac{0.001}{0.95\times0.020}
-\approx
-0.053\ \mathrm{m^3\,h^{-1}}
-$$
+$$\dot V \approx \frac{0.001}{0.95\times0.020} \approx 0.053\ \mathrm{m^3\,h^{-1}}$$
 
 or approximately
 
-$$
-1.5\times10^{-5}\ \mathrm{m^3\,s^{-1}}
-\approx
-0.015\ \mathrm{L\,s^{-1}}.
-$$
+$$1.5\times10^{-5}\ \mathrm{m^3\,s^{-1}} \approx 0.015\ \mathrm{L\,s^{-1}}.$$
 
 At $10\ \mathrm{g\,h^{-1}}$, the corresponding first-order value is roughly
 
-$$
-0.15\ \mathrm{L\,s^{-1}}.
-$$
+$$0.15\ \mathrm{L\,s^{-1}}.$$
 
 These volumetric values are modest, but the gas is at very low pressure. Reactor breakdown, plasma regime, heat transfer, compressor requirements, and residence time therefore remain the dominant questions.
 
@@ -715,49 +564,31 @@ These volumetric values are modest, but the gas is at very low pressure. Reactor
 
 For a hypothetical swarm of
 
-$$
-N=10^6
-$$
+$$N=10^6$$
 
 units each fully converting
 
-$$
-1\ \mathrm{g\,h^{-1}}
-$$
+$$1\ \mathrm{g\,h^{-1}}$$
 
 of CO₂ through the partial dissociation route, total feed conversion is
 
-$$
-1000\ \mathrm{kg\,h^{-1}}
-=
-24,000\ \mathrm{kg\,day^{-1}}.
-$$
+$$1000\ \mathrm{kg\,h^{-1}} = 24,000\ \mathrm{kg\,day^{-1}}.$$
 
 Since the oxygen mass fraction recovered from converted CO₂ is
 
-$$
-\frac{16}{44}=0.364,
-$$
+$$\frac{16}{44}=0.364,$$
 
 the ideal oxygen production would be
 
-$$
-24,000\times0.364
-\approx
-8.7\times10^3\ \mathrm{kg\,day^{-1}}
-$$
+$$24,000\times0.364 \approx 8.7\times10^3\ \mathrm{kg\,day^{-1}}$$
 
 or approximately
 
-$$
-8.7\ \mathrm{t\,O_2\,day^{-1}}.
-$$
+$$8.7\ \mathrm{t\,O_2\,day^{-1}}.$$
 
 At $10\ \mathrm{g\,h^{-1}}$ per unit, the arithmetic scales to approximately
 
-$$
-87\ \mathrm{t\,O_2\,day^{-1}}.
-$$
+$$87\ \mathrm{t\,O_2\,day^{-1}}.$$
 
 These values illustrate the **parallelism argument only**. They do not establish that one million operational devices, 100% conversion, continuous power, sustained flight, or product retention are feasible.
 
@@ -803,11 +634,7 @@ The central unknown is **energy efficiency under Mars-relevant pressure and micr
 
 A useful experimental figure of merit is
 
-$$
-\eta_E=
-\frac{\text{chemical energy stored in products}}
-{\text{electrical energy supplied to the complete reactor system}}.
-$$
+$$\eta_E= \frac{\text{chemical energy stored in products}} {\text{electrical energy supplied to the complete reactor system}}.$$
 
 The literature cautions that reported plasma efficiencies can be difficult to compare because authors may use different definitions and system boundaries [6]. Any serious follow-up must therefore report at least:
 
@@ -833,13 +660,7 @@ Producing dissociation products is not enough. Hot CO, O, O₂, electrons, and e
 
 The reactor therefore requires a controlled post-plasma region:
 
-$$
-\text{plasma}
-\rightarrow
-\text{rapid quench}
-\rightarrow
-\text{stable product stream}.
-$$
+$$\text{plasma} \rightarrow \text{rapid quench} \rightarrow \text{stable product stream}.$$
 
 Quenching can improve preservation of nonequilibrium products, but excessive cooling hardware adds mass. In a flying microdevice, the tension between **chemical conversion** and **thermal rejection** may dominate the design.
 
@@ -885,11 +706,7 @@ The term **microdevice** should therefore refer primarily to **payload mass and 
 
 Oxygenic photosynthesis can be summarized as
 
-$$
-6CO_2+6H_2O+h\nu
-\rightarrow
-C_6H_{12}O_6+6O_2,
-$$
+$$6CO_2+6H_2O+h\nu \rightarrow C_6H_{12}O_6+6O_2,$$
 
 but the liberated $O_2$ originates from water oxidation rather than direct extraction of both oxygen atoms from CO₂.
 
@@ -897,11 +714,7 @@ Cyanobacteria are relevant because selected strains have been investigated for M
 
 Therefore Stage 2 should be formulated as:
 
-$$
-\boxed{
-\text{sealed or protected micro-habitat experiments}
-}
-$$
+$$\boxed{ \text{sealed or protected micro-habitat experiments} }$$
 
 not direct ecological release.
 
@@ -944,15 +757,7 @@ Construct a terrestrial CO₂ plasma-vortex demonstrator.
 
 Measure:
 
-$$
-X_{CO_2},\quad
-\eta_E,\quad
-T_g,\quad
-P,\quad
-\dot m,\quad
-\tau,\quad
-\text{CO/O}_2\text{ composition}.
-$$
+$$X_{CO_2},\quad \eta_E,\quad T_g,\quad P,\quad \dot m,\quad \tau,\quad \text{CO/O}_2\text{ composition}.$$
 
 Compare:
 
@@ -986,9 +791,7 @@ Investigate breakdown behavior and whether a different plasma regime becomes pre
 
 Test sequential cores:
 
-$$
-V_1\rightarrow V_2\rightarrow V_3.
-$$
+$$V_1\rightarrow V_2\rightarrow V_3.$$
 
 Measure conversion and efficiency after every stage.
 
@@ -1050,11 +853,7 @@ The strongest idea in this study is **not** that a particular plasma-vortex geom
 
 It is the architectural hypothesis that:
 
-$$
-\boxed{
-\text{distributed low-throughput ISRU can precede centralized high-throughput ISRU}
-}
-$$
+$$\boxed{ \text{distributed low-throughput ISRU can precede centralized high-throughput ISRU} }$$
 
 in the same way distributed computing can provide resilience and geographic reach before centralized infrastructure is available.
 
@@ -1083,15 +882,7 @@ It was rejected only as the **primary precursor architecture**.
 
 A plausible long-term sequence is therefore:
 
-$$
-\text{distributed reconnaissance/process swarm}
-\rightarrow
-\text{collector stations}
-\rightarrow
-\text{regional plants}
-\rightarrow
-\text{large industrial ISRU}.
-$$
+$$\text{distributed reconnaissance/process swarm} \rightarrow \text{collector stations} \rightarrow \text{regional plants} \rightarrow \text{large industrial ISRU}.$$
 
 The swarm and the factory are complementary rather than mutually exclusive.
 
@@ -1101,9 +892,7 @@ The swarm and the factory are complementary rather than mutually exclusive.
 
 For $N$ nominally independent devices, system capacity scales approximately with the surviving fraction:
 
-$$
-C_{\mathrm{system}}\approx C_{\mathrm{unit}}N(1-f),
-$$
+$$C_{\mathrm{system}}\approx C_{\mathrm{unit}}N(1-f),$$
 
 where $f$ is the failed fraction.
 
@@ -1207,81 +996,51 @@ For formal scholarly publication, **J.P. De Luca is the sole responsible author*
 
 ### A.1 Wind power
 
-$$
-P=\frac12\rho A v^3
-$$
+$$P=\frac12\rho A v^3$$
 
 ### A.2 Lorentz force
 
-$$
-\mathbf F=q(\mathbf E+\mathbf v\times\mathbf B)
-$$
+$$\mathbf F=q(\mathbf E+\mathbf v\times\mathbf B)$$
 
 ### A.3 Reduced electric field
 
-$$
-E/N
-$$
+$$E/N$$
 
 with
 
-$$
-1\ \mathrm{Td}=10^{-21}\ \mathrm{V\,m^2}
-$$
+$$1\ \mathrm{Td}=10^{-21}\ \mathrm{V\,m^2}$$
 
 ### A.4 Full CO₂ decomposition
 
-$$
-CO_2\rightarrow C+O_2
-$$
+$$CO_2\rightarrow C+O_2$$
 
-$$
-\Delta H^\circ\approx393.5\ \mathrm{kJ\,mol^{-1}}
-$$
+$$\Delta H^\circ\approx393.5\ \mathrm{kJ\,mol^{-1}}$$
 
-$$
-1\ \mathrm{kg\ CO_2}\rightarrow0.727\ \mathrm{kg\ O_2}
-$$
+$$1\ \mathrm{kg\ CO_2}\rightarrow0.727\ \mathrm{kg\ O_2}$$
 
 ### A.5 Partial dissociation
 
-$$
-CO_2\rightarrow CO+\frac12O_2
-$$
+$$CO_2\rightarrow CO+\frac12O_2$$
 
-$$
-\Delta H^\circ\approx283.0\ \mathrm{kJ\,mol^{-1}}
-$$
+$$\Delta H^\circ\approx283.0\ \mathrm{kJ\,mol^{-1}}$$
 
-$$
-1\ \mathrm{kg\ CO_2}\rightarrow0.364\ \mathrm{kg\ O_2}
-$$
+$$1\ \mathrm{kg\ CO_2}\rightarrow0.364\ \mathrm{kg\ O_2}$$
 
 ### A.6 Helical conceptual path
 
-$$
-x(t)=r\cos(\omega t)
-$$
+$$x(t)=r\cos(\omega t)$$
 
-$$
-y(t)=r\sin(\omega t)
-$$
+$$y(t)=r\sin(\omega t)$$
 
-$$
-z(t)=v_zt
-$$
+$$z(t)=v_zt$$
 
 ### A.7 Idealized swarm throughput
 
-$$
-\dot m_{\mathrm{total}}=N\dot m_{\mathrm{unit}}
-$$
+$$\dot m_{\mathrm{total}}=N\dot m_{\mathrm{unit}}$$
 
 and, for complete conversion through the CO route,
 
-$$
-\dot m_{O_2}\approx0.364\,\dot m_{CO_2}.
-$$
+$$\dot m_{O_2}\approx0.364\,\dot m_{CO_2}.$$
 
 ---
 
