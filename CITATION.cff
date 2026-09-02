@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or discuss this concept, please cite this repository and the archived release when available."
+title: "Distributed Martian Atmospheric CO₂ Processing Swarms: A Conceptual Architecture for Plasma-Vortex ISRU and Autonomous Microreactors"
+type: report
+version: "0.2"
+date-released: 2026-09-01
+authors:
+  - family-names: "De Luca"
+    given-names: "J.P."
+repository-code: "https://github.com/juninhodeluca/martian-co2-processing-swarms"
+keywords:
+  - Mars
+  - ISRU
+  - carbon dioxide
+  - oxygen production
+  - non-thermal plasma
+  - plasma vortex
+  - swarm robotics
+  - atmospheric vehicles
+  - distributed systems
+abstract: >-
+  Speculative concept study exploring distributed swarms of autonomous ultralight atmospheric microdevices for local Martian CO2 processing using compact plasma-vortex reactors, with a substantially more speculative protected biological micro-habitat extension.
