@@ -1,0 +1,23 @@
+{
+  "title": "Distributed Martian Atmospheric CO₂ Processing Swarms: A Conceptual Architecture for Plasma-Vortex ISRU and Autonomous Microreactors",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "A speculative concept study exploring distributed swarms of autonomous ultralight atmospheric microdevices for Martian CO₂ processing using compact plasma-vortex reactors. The manuscript distinguishes demonstrated evidence, literature-supported mechanisms, engineering extrapolation, and long-horizon speculation.",
+  "creators": [
+    {
+      "name": "De Luca, J.P."
+    }
+  ],
+  "keywords": [
+    "Mars",
+    "ISRU",
+    "CO2 conversion",
+    "oxygen production",
+    "non-thermal plasma",
+    "plasma vortex",
+    "swarm robotics",
+    "atmospheric vehicles",
+    "distributed systems"
+  ],
+  "access_right": "open"
+}
